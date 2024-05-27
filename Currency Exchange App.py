@@ -1,8 +1,8 @@
 import requests
 import json
 
-api_key = "6babf42a9cb75b6de08db4c1"
-api_url = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/"
+api_key = ""
+api_url = f"/v6/{api_key}/latest/"
 
 bozulan_doviz = input("Bozulan Döviz Türü: ")
 alinan_doviz = input("Alınan Döviz Türü: ")
