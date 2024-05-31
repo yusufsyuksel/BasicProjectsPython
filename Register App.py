@@ -77,7 +77,7 @@ while True:
         repository.register(user)
     elif secim == '2':
         if repository.isLoggedIn:
-            print('zaten girdiş yapıldı')
+            print('zaten giriş yapıldı')
         else:
             username = input('username: ')
             password = input('password: ')
